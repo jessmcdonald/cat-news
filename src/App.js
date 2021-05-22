@@ -7,6 +7,9 @@ function App() {
         <p>
           Mew mew mew.
         </p>
+        <p>
+          TESTNG API KEY: '{process.env.GUARDIAN_API_KEY}'
+        </p>
       </header>
     </div>
   );
