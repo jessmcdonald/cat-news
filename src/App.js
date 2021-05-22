@@ -1,4 +1,5 @@
 import './App.css';
+import env from "react-dotenv";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
           Mew mew mew.
         </p>
         <p>
-          TESTNG API KEY: '{process.env.GUARDIAN_API_KEY}'
+          TESTNG API KEY: '{env.GUARDIAN_API_KEY}'
         </p>
       </header>
     </div>
